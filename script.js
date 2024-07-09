@@ -31,7 +31,7 @@ document.getElementById('searchForm').addEventListener('submit', function(event)
         { name: 'Arnav Prashant Zade', grade: 'A12', school: 'Sri Ma Vidyalaya', standard: '1st', medal: 'Gold', mobile: '9766333075' },
         { name: 'Virraj Singh Sokhi', grade: 'A12', school: 'New Horizon Scholars School', standard: '2nd', medal: 'Gold', mobile: '8828024423' },
         { name: 'Venkata Rohith Reddy Bikkam', grade: 'M5', school: 'Northwest Rankin Middle School', standard: '7th', medal: 'Gold', mobile: '6019558813' },
-        { name: 'Venkata Hemanth Reddy Bikkam', grade: 'M5', school: 'Northwest Rankin Elementary School', standard: '4th', medal: 'Gold', mobile: '6019558813' },
+        { name: 'Venkata Hemanth Reddy Bikkam', grade: 'M5', school: 'Northwest Rankin Elementary School', standard: '4th', medal: 'Gold', mobile: '6013457467' },
         { name: 'Mitin Nitin Bhambhani', grade: 'A12', school: 'Universal High School', standard: '2nd', medal: 'Gold', mobile: '9920498099' },
         { name: 'Kriti Kodumuri', grade: 'M5', school: 'Gulledge Elementary School', standard: '5th', medal: 'Gold', mobile: '4699828600' },
         { name: 'Riaan Chandarana', grade: 'M4', school: 'Hiranandani Foundation School Thane', standard: '3rd', medal: 'Gold', mobile: '9953556116' },

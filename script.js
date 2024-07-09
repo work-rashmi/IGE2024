@@ -62,8 +62,10 @@ document.getElementById('searchForm').addEventListener('submit', function(event)
         // Check if student gets a gold medal
         if (student.medal === 'Gold') {
             // Redirect to Facebook page for review
-            alert('Congratulations! You have secured a GOLD MEDAL! \nPlease give Rashmi Mam a review.');
-            window.location.href = 'https://www.facebook.com/eagerbeaverabacus/reviews'; // Replace with your Facebook page URL
+            alert('Congratulations! You have secured a GOLD MEDAL! \n You will be re-directed to the facebook page. Please give Rashmi Mam a review.');
+             setTimeout(() => {
+                window.location.href = 'https://www.facebook.com/eagerbeaverabacus/reviews'; // Replace with your Facebook page URL
+            }, 10000); // 10 seconds delay
         }
     } else {
         resultContainer.innerHTML = '<p>Student not found. Please check the phone number.</p>';

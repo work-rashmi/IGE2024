@@ -1,0 +1,47 @@
+body {
+    background-image: url('ige_2024.jpg');
+    /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-color: #CCCCFF;
+    /* Purple background color */
+    background-blend-mode: multiply;
+    /* Blend mode for background */
+    opacity: 0.8;
+    /* Adjust opacity */
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+input[type="text"],
+button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resultContainer {
+    margin-top: 20px;
+}

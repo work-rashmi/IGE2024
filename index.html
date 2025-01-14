@@ -23,6 +23,57 @@
     </div>
     <script src="script.js"></script>
     <!-- JavaScript file for functionality -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        dialog {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        button {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Details</h1>
+    <button id="showDialog">Show Details</button>
+    <dialog id="detailsDialog">
+        <h2>Details</h2>
+        <p><strong>Name:</strong> John Doe</p>
+        <p><strong>Date of Birth:</strong> 01-01-2000</p>
+        <p><strong>Grade:</strong> A</p>
+        <p><strong>School:</strong> ABC High School</p>
+        <p><strong>Prize:</strong> Science Fair Winner</p>
+        <p><strong>Mobile Number:</strong> +1234567890</p>
+        <button id="closeDialog">Close</button>
+    </dialog>
+
+    <script>
+        const dialog = document.getElementById('detailsDialog');
+        const showDialog = document.getElementById('showDialog');
+        const closeDialog = document.getElementById('closeDialog');
+
+        showDialog.addEventListener('click', () => {
+            dialog.showModal();
+        });
+
+        closeDialog.addEventListener('click', () => {
+            dialog.close();
+        });
+    </script>
+</body>
+</html>
+
 </body>
 
 </html>
